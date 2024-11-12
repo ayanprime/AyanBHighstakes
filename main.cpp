@@ -53,7 +53,6 @@ void autonomous(void) {
 
   while(true){
 
-    goForwardP(24);
 
   }
 
