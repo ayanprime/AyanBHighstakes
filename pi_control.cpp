@@ -6,6 +6,8 @@ void goForwardPI(float Dis) {
     //distance left pod has gone
     odomL = LeftP.position(turns) * 12.5663706;
     
+    elapsedTime = myTimer.time(vex::timeUnits (msec));
+
     RKp = (odomR/Dis) * 100;
     LKp = (odomL/Dis) * 100;
     etR = Dis - odomR;
